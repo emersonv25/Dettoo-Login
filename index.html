@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,36 +14,39 @@
     <div class="container">
         <div class="row content">
             <div class="col-md-6 mb-3">
+                <h1 class="bemvindo">Bem-vindo ao</h1>
                 <a href="index.html"><img src="images/bunner_noBackGround.png" class="img-fluid" alt="image"> </a>
                    
             </div>
             <div class="col-md-6">
+               
+                <div class="alert alert-danger" role="alert">
+                    Usuário ou senha inválido
+                </div>
+
                 <img src="images/avatar.png" class="img-avatar" alt="">
                 <h3 class="signin-text mb-3"> Login </h3>
-                <form> 
-                    <div class="form-group"> 
-                        <label for="username"> Usuario</label>
-                        <input type="text" name="username" placeholder="Digite seu login" class="form-control" id="">
+                <form method="POST"> 
 
+                    <div class="form-group"> 
+                        <label for="username"> Usuário</label>
+                        <input type="text" name="username" placeholder="Digite seu usuário" class="form-control" id="username" maxlength="45">
                     </div>
                     <div class="form-group"> 
                         <label for="password"> Senha</label>
-                        <input type="password" name="password" placeholder="Digite sua senha" class="form-control" id="">
-                        
+                        <input type="password" name="password" placeholder="Digite sua senha" class="form-control" id="password" maxlength="45">   
                     </div>
                     <div class="form-group form-check"> 
                         <input type="checkbox" name="checkbox" class="form-check-input" id="checkbox">
                         <label class="form-check-label" for="checkbox"> Lembrar-me</label>
                     </div>
-                    
-                    <button type="submit" class="btn btn-class">Entrar</button>
-                    <a href="forgot.html" class="btn btn-link"> Esqueceu sua senha ?</a>
-                    <a href="signup.html" class="btn btn-link"> Não é um membro ? <strong>Cadastre-se</strong></a>
-                    
-                    
-                    
+                    <button type="submit" class="btn btn-class">Entrar</button>   
 
                 </form>
+                
+                <a href="forgot.html" class="btn btn-link"> Esqueceu sua senha ?</a>
+                <a href="signup.html" class="btn btn-link"> Não é um membro ? <strong>Cadastre-se</strong></a>
+
             </div>
         </div>
     </div>    
