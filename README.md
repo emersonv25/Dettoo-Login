@@ -5,7 +5,7 @@ Login screen created using html css and bootstrap.
 Front-End only.
 
 
-# dependency and install
+# requirements and install
 no dependencies, you just need a web browser
 download and run index.html
 
